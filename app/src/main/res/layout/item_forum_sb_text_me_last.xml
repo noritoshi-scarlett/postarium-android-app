@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingTop="2dp"
+android:paddingStart="0dp"
+android:paddingEnd="6dp"
+android:paddingBottom="0dp"
+android:background="@color/transparent">
+
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginStart="50dp"
+    android:layout_marginBottom="2dp"
+    android:id="@+id/layoutMain">
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:id="@+id/forumSBMsgTag"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/textPrimary"
+        android:background="@color/buttonPrimary"/>
+
+    <RelativeLayout
+        android:id="@+id/forumSBMsgArrow"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toStartOf="@id/forumSBMsgTag"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/textview_arrow_light"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/forumSBMsgArrow"
+        android:layout_alignParentBottom="true"
+        android:gravity="end|center_vertical"
+        android:minHeight="30dp"
+        android:paddingTop="1dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="3dp"
+        android:autoLink="web|email"
+        android:textIsSelectable="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/forumSBMsgDescText"
+        android:textColor="@color/backgroundBlue"
+        android:textSize="16dp"
+        android:text=""
+        android:background="@color/textPrimary" />
+
+</RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/layoutInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="end"
+    android:layout_below="@id/layoutMain"
+    android:layout_alignParentEnd="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/forumSBMsgAuthor"
+        android:textColor="@color/textPrimary"
+        android:paddingEnd="3dp"
+        android:paddingTop="2dp"
+        android:textSize="10dp"
+        android:text=""
+        android:background="@color/transparent"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="2dp"
+        android:minWidth="30dp"
+        android:id="@+id/forumSBMsgDate"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@color/textHover"
+        android:textSize="9dp"
+        android:text=""
+        android:background="@color/transparent"
+        android:layout_marginStart="2dp" />
+
+</LinearLayout>
+
+<Button
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginStart="0dp"
+    android:gravity="center_horizontal"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/forumSBMsgMenu"
+    android:drawableEnd="@drawable/icon_menu_more_24"
+    android:visibility="gone"
+    android:background="@color/transparent" />
+
+</RelativeLayout>

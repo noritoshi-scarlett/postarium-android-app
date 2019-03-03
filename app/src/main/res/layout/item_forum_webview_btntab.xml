@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minHeight="20dp"
+        android:id="@+id/btnTab"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingStart="3dp"
+        android:paddingEnd="3dp"
+        android:gravity="center"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:textColor="@color/textPrimary"
+        android:background="@drawable/button_primary" />
+
+    <Button
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/btnTab"
+        android:id="@+id/btnDelete"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:background="@color/backgroundBlue"
+        android:visibility="gone"
+        android:drawableStart="@drawable/icon_delete_24"/>
+
+</RelativeLayout>

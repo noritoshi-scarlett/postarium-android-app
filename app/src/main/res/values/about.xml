@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_what_title">Czym jest Postarium?</string>
+    <string name="about_what_desc">Postarium to platforma do obsługi forów z fabularną grą tekstową (popularnie nazywanymi jako Play-by-forum, skrótem PBF). Jej podstawowym zadaniem jest umożliwienie graczom łatwego, zdalnego dostępu do forów PBF, spośród tych, które znajdują się na liście wspieranych. \n Korzystanie z platformy Postarium wymaga zarejestrowania się. Zalogowany użytkownik ma możliwość subskrybowania forów, dodawania do nich danych logowania do zarejestrowanych postaci oraz przeglądania zawartości forów.</string>
+
+    <string name="about_forums_title">Wspierane fora</string>
+    <string name="about_forums_desc">Lista wspieranych forów dostępna jest dla niezalogowanego użytkownika w menu Biblioteka. \n Jeśli grywasz na forum, którego nie masz na liście, zaproponuj administracji zainteresowanie się wsparciem ze strony tej platformy. \n Jeśli jesteś administratorem forum, którego nie wspieramy, skontaktuj się z nami pod adresem email: <b>administracja@postarium.pl</b>. Z reguły wsparcie forów ograniczone jest do tych funkcjonujących na skrypcie phpBB (w dowolnej wersji), ale jeśli posiadasz forum oparte o inny skrypt, być może niewiele stoi na przeszkodzie, aby i ono przez platformę Postarium było wspierane. Warto mieć na uwadzę, że to Postarium dostosowuje się do obsługi forum – owe nie potrzebuje żadnych modyfikacji do bycia wspieranym!</string>
+
+    <string name="about_basic_title">Podstawowa funkcjonalność Postarium</string>
+    <string name="about_basic_desc">Postarium ma na celu umożliwienie Graczowi swobodnego dostępu do zawartości forów, co wymaga gromadzenia danych logowania. Dane te są bezpiecznie przechowywane i nieudostępniane osobom trzecim. Postarium wykorzystuje te dane do zdalnego zalogowania tylko wtedy, kiedy Gracz wykona na platformie akcję tego wymagającą.</string>
+
+    <string name="about_postari_title">Postari!</string>
+    <string name="about_postari_desc">Jest to funkcja pozwalająca na automatyczne wyszukiwanie nowych postów i prywatnych wiadomości na wybranym forum. Przy posiadaniu kilku kont na tym samym forum, Postari! wyświetla na liście nowych postów tylko te, które nie były czytane na żadnym z kont, co pozwala na bardzo dobra kontrolę nad pojawiającymi się, nowymi tematami.</string>
+
+    <string name="about_security_title">Prywatność i bezpieczeńśtwo</string>
+    <string name="about_security_desc">Żadne dane o użytkowniku jak i forach nie są gromadzone w celu innym, niż działaniu powyżej opisanych funkcji platformy. Nie są prowadzone żadne statystyki, a użytkownik ma możliwość ustawienia stopnia prywatności swojego konta. Postarium korzysta z ciasteczek i danych składowanych w przeglądarce (localStorage i sessionStorage), celem logowania użytkownika i zapisywania danych ostatnio przez niego używanych.</string>
+
+</resources>

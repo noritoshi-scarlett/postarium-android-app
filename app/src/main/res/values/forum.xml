@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="forum_postari_desc">Załaduj nowe posty i wiadomości, korzystając z poniższego przycisku: </string>
+
+    <string name="forum_postari">Postari !</string>
+    <string name="forum_news">Nowe</string>
+    <string name="forum_last">Ostatnie</string>
+    <string name="forum_pw">PW</string>
+    <string name="forum_shortcuts">Na skróty</string>
+
+    <string name="forum_news_dialog_title">Ogłoszenia i nowości:</string>
+    <string name="toutchToBack">Jesli naciśniesz raz jeszcze, całkowicie wyjdziesz z tego forum!</string>
+
+    <string name="forum_online_desc">Obecnie aktywni:</string>
+    <string name="forum_online_menu_user_link_copy">Skopiuj link do profilu</string>
+    <string name="forum_online_menu_user_pw_send">Wyślij prywatną wiadomość</string>
+    <string name="forum_online_menu_user_simple_view">Wyświetl prosty profil</string>
+    <string name="forum_online_menu_user_open_browser">Otwórz profil w przeglądarce</string>
+    <string name="forum_copy_success">Skopiowano link do profilu:</string>
+
+    <string name="forum_tree_desc">Struktura forum:</string>
+    <string name="forum_sb_give_msg">Wpisz tutaj…</string>
+    <string name="forum_chatbox_msg_menu">Wybierz akcję:</string>
+    <string name="forum_chatbox_msg_copy">Skopiuj</string>
+    <string name="forum_chatbox_msg_paste">Wklej</string>
+
+    <string name="forum_webview_empty">O nie, lista jest pusta!\n\nPrzejdź do zakładki "Posty" i wybierz sobie jakiś do wyświetlenia.</string>
+
+</resources>

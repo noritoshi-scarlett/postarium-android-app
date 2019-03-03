@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="circle_chars_title">Krąg postaci</string>
+    <string name="circle_chars_desc">Poniżej widoczene są wszystkie postacie, które zostały przez Ciebie dodane w platformie Postarium. Po kliknięciu w ikonę postaci, przejdziesz do edycji ustawień postaci oraz do edycji profilu na forum. Będzie wówczas możliwe także usunięcie tej postaci z Postarium.</string>
+
+    <string name="circle_chars_privacy_policy">Ochrona danych i prywatnosć</string>
+    <string name="circle_chars_more_info">Co to jest?</string>
+    <string name="circle_chars_ok">Ok, zamknij</string>
+
+    <string name="circle_char_privacy_title">Dlaczego mam podawać swoje dane?!</string>
+    <string name="circle_char_privacy_desc">Dane logowania są odpowiednio zabezpieczone i nikomu nie będą udostepniane. Bez nich, nie będzie możliwe korzystanie z platformy Postarium.\n\nKonieczne jest podanie następujących danych:</string>
+    <string name="circle_char_privacy_login_title">Login postaci</string>
+    <string name="circle_char_privacy_login_desc">Musi być dokładnie <b>taki sam</b>, jakim logujesz się na forum.</string>
+    <string name="circle_char_privacy_password_title">Hasło postaci</string>
+    <string name="circle_char_privacy_password_desc">Musi być <b>takie samo</b> jak to, które wykorzystujesz do logowania się na forum.</string>
+    <string name="circle_char_privacy_forum">Forum, do którego przynależy postać</string>
+
+    <string name="circle_char_context_title">Twoja postać</string>
+    <string name="circle_char_context_desc">Wybierz działanie:</string>
+    <string name="circle_char_context_profile">Profil</string>
+    <string name="circle_char_context_settings">Ustawienia</string>
+
+    <string name="circle_char_attention">Upewnij się, że wpisujesz <b>poprawne dane logowana.</b> Jeśli sie pomylisz, będziesz mógł je w każdej chwili edytować.</string>
+    <string name="circle_char_forum">Świat w którym żyje:</string>
+    <string name="circle_char_forum_desc">Na liście dostepne są tylko te fora, które aktualnie subskrybujesz <i>(Zajrzyj do Biblioteki, aby dodać nowe fora)</i>.</string>
+    <string name="circle_char_login">Login postaci</string>
+    <string name="circle_char_tag">Tag <i>(Maksymalnie 5 znaków)</i></string>
+    <string name="circle_char_password">Hasło postaci</string>
+    <string name="circle_char_visible_title">Pokazuj tę postać w moim profilu</string>
+    <string name="circle_char_visible_desc">Jeśli chcesz, by tylko znajomi widzieli Twoje postacie, zmień ustawienia widoczności swojego profilu.</string>
+    <string name="circle_char_delete_title">Usuń dane postaci z Postarium</string>
+    <string name="circle_char_delete_desc">Czy jesteś pewny, że chcesz to zrobić?</string>
+    <string name="circle_char_dialog_add">Dodaj</string>
+    <string name="circle_char_dialog_apply">Aktualizuj</string>
+    <string name="circle_char_dialog_cancel">Wróć</string>
+
+    <string name="circle_char_context_change_profile_true">Profil postaci został zaktualizowany</string>
+    <string name="circle_char_context_change_profile_false">Nie zmieniono profilu postaci</string>
+    <string name="circle_char_context_change_settings_true">Ustawienia postaci zostały zaktualizowane</string>
+    <string name="circle_char_context_change_settings_false">Nie zmieniono ustawień postaci</string>
+
+    <string name="circle_char_second_touch_to_close">Naciśnij raz jeszcze, aby powrócić do Postarium</string>
+
+    <string name="circle_char_empty_list">Ojej, nie dodałes jeszcze żadnej postaci ;C</string>
+    <string name="circle_char_empty_try_forum">Ups, nie przypisałeś temu forum żadnego charakteru!</string>
+    <string name="circle_char_goto">Idź do Kręgu Postaci ;3</string>
+</resources>

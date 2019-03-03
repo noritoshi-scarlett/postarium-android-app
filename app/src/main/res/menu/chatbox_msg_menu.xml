@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuChatBoxCopy"
+        android:icon="@drawable/icon_forum_copy_c48"
+        android:title="@string/forum_chatbox_msg_copy" />
+</menu>

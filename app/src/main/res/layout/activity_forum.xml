@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBlueTransparent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/design_navigation_view_padding_bottom"
+    tools:context="noritoshi_scarlett.postarium.activities.ForumActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/barLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="@color/buttonPrimaryTransparent"
+            android:animateLayoutChanges="true"
+            android:gravity="center_horizontal">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayoutMain"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="top|center_horizontal"
+                app:tabGravity="fill"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/textPrimary"
+                app:tabTextColor="@color/transparent" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayoutDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|bottom"
+                android:layout_marginEnd="50dp"
+                android:visibility="gone"
+                app:tabContentStart="0dp"
+                app:tabGravity="fill"
+                app:tabMode="scrollable" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@color/backgroundBlue"
+            android:visibility="visible"
+            android:animateLayoutChanges="true"
+            app:layout_anchorGravity="bottom"
+            app:layout_anchor="@id/barLayout"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/menuChar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/icon_forum_pick_char_c48"
+            app:backgroundTint="@drawable/fab_blue"
+            app:borderWidth="1dp"
+            app:fabSize="mini"
+            app:layout_anchor="@id/barLayout"
+            app:layout_anchorGravity="bottom|right|end" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatBtnPostari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/buttonPrimaryFocus"
+            android:src="@drawable/icon_forum_postari_c48"
+            android:visibility="gone"
+            app:background="@color/buttonPrimaryFocus"
+            app:backgroundTint="@color/backgroundRed"
+            app:borderWidth="1dp"
+            app:fabSize="mini"
+            app:rippleColor="@color/buttonPrimaryFocus" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateBehavior="repeat"
+            android:minHeight="100dp"
+            android:minWidth="100dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

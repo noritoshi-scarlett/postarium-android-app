@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="container"
+        android:id="@+id/menu_group_frist">
+
+        <item
+            android:id="@+id/nav_main_site"
+            android:icon="@drawable/icon_menu_home_c48"
+            android:title="@string/menu_main_item_main_site" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/icon_menu_news_c48"
+            android:title="@string/menu_main_item_news" />
+
+        <item android:title="@string/menu_main_item_forums_list"
+            android:id="@+id/nav_forums_list">
+            <menu>
+            </menu>
+        </item>
+
+
+        <item android:title="@string/menu_main_item_write_tools"
+            android:id="@+id/nav_write_tools">
+            <menu>
+                <item
+                    android:id="@+id/nav_notes"
+                    android:icon="@drawable/icon_menu_attach_c48"
+                    android:checkable="true"
+                    android:title="@string/menu_main_item_notes" />
+            </menu>
+        </item>
+
+        <item android:title="@string/menu_main_item_settings"
+            android:id="@+id/nav_settings">
+            <menu>
+                <item
+                    android:id="@+id/nav_forums_base"
+                    android:icon="@drawable/icon_menu_library_c48"
+                    android:checkable="true"
+                    android:title="@string/menu_main_item_forums_base" />
+                <item
+                    android:id="@+id/nav_char_circle"
+                    android:icon="@drawable/icon_menu_char_circle_c48"
+                    android:checkable="true"
+                    android:title="@string/menu_main_item_char_circle" />
+            </menu>
+        </item>
+
+
+
+    </group>
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/gradient_transparent_red"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingTop="20dp"
+    android:paddingBottom="15dp">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignOut"
+        android:background="@color/transparent"
+        android:drawableStart="@drawable/icon_sign_signout_c48"
+        android:textSize="12sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_guest"
+            android:id="@+id/textAccountName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="22sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/example_email"
+            android:id="@+id/textAccountEmail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="15sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_main_item_forums_list">Subskrybowane fora:</string>
+    <string name="menu_main_item_write_tools">Zakładki i notatki:</string>
+    <string name="menu_main_item_settings">Ustawienia</string>
+    <string name="menu_main_item_main_site">Główna</string>
+    <string name="menu_main_item_forums_base">Forumoteka</string>
+    <string name="menu_main_item_char_circle">Krąg Postaci</string>
+    <string name="menu_main_item_news">Newsy</string>
+    <string name="menu_main_item_notes">Notatki</string>
+    <string name="menu_main_cat_search">Poszukaj czegoś…</string>
+    <string name="menu_main_item_search">Wyniki poszukiwań</string>
+
+    <integer-array name="mini_menu_ids">
+        <item>@+id/nav_main_site</item>
+        <item>@+id/nav_news</item>
+        <item>@+id/nav_forums_list</item>
+        <item>@+id/nav_notes</item>
+        <item>@+id/nav_forums_base</item>
+        <item>@+id/nav_char_circle</item>
+    </integer-array>
+
+    <integer-array name="mini_menu_icons">
+        <item>@drawable/icon_menu_home_c48</item>
+        <item>@drawable/icon_menu_news_c48</item>
+        <item>@drawable/icon_menu_library_c48</item>
+        <item>@drawable/icon_menu_attach_c48</item>
+        <item>@drawable/icon_menu_library_c48</item>
+        <item>@drawable/icon_menu_char_circle_c48</item>
+    </integer-array>
+
+    <string name="menu_forum_online">Online</string>
+    <string name="menu_forum_chatbox">ShoutBox</string>
+    <string name="menu_forum_postsmsgs">Posty</string>
+    <string name="menu_forum_tree">Drzewo</string>
+    <string name="menu_forum_subforum">Dział</string>
+    <string name="menu_forum_topic">Temat</string>
+
+
+    <array name="forum_tab_postsmsgs_titles">
+        <item>Nowe</item>
+        <item>Ostatnie</item>
+        <item>PW</item>
+        <item>Na skróty</item>
+    </array>
+
+    <array name="forum_tab_menu_titles">
+        <item>Online</item>
+        <item>ShoutBox</item>
+        <item>Posty</item>
+        <item>Drzewo</item>
+        <item>Listy</item>
+        <item>Wiadomosci</item>
+    </array>
+
+    <array name="library_tab_menu_titles">
+        <item>Subskrybowane</item>
+        <item>Niesubskrybowane</item>
+        <item>W przygotowaniu</item>
+    </array>
+
+    <integer-array name="forum_tab_menu_icons">
+        <item>@drawable/icon_forum_online_c48</item>
+        <item>@drawable/icon_forum_chat_c48</item>
+        <item>@drawable/icon_forum_postsmsgs_c48</item>
+        <item>@drawable/icon_forum_tree_c48</item>
+        <item>@drawable/icon_forum_list_c48</item>
+        <item>@drawable/icon_forum_topic_c48</item>
+    </integer-array>
+
+    <array name="forum_toolbar_names">
+        <item>Subskrybowane</item>
+        <item>Niesubskrybowane</item>
+        <item>W przygotowaniu</item>
+    </array>
+
+    <integer-array name="forum_toolbar_icons">
+        <item>@drawable/icon_forum_edit_bold_48</item>
+        <item>@drawable/icon_forum_edit_italic_48</item>
+        <item>@drawable/icon_forum_edit_underline_48</item>
+        <item>@drawable/icon_forum_edit_center_48</item>
+        <item>@drawable/icon_forum_edit_quote_48</item>
+        <item>@drawable/icon_forum_edit_code_48</item>
+        <item>@drawable/icon_forum_edit_img_48</item>
+        <item>@drawable/icon_forum_edit_link_48</item>
+        <item>@drawable/icon_forum_edit_code_48</item>
+        <item>@drawable/icon_forum_edit_dot_list_48</item>
+        <item>@drawable/icon_forum_edit_color_picker_c48</item>
+        <item>@drawable/icon_forum_edit_result_code_c48</item>
+    </integer-array>
+
+    <array name="forum_toolbar_list_names">
+        <item>List numeryczna</item>
+        <item>Lista punktowa</item>
+        <item>Element w liście</item>
+    </array>
+
+    <integer-array name="forum_toolbar_list_icons">
+        <item>@drawable/icon_forum_edit_dot_list_48</item>
+        <item>@drawable/icon_forum_edit_num_list_48</item>
+        <item>@drawable/icon_forum_edit_dot_list_48</item>
+    </integer-array>
+
+    <array name="forum_toolbar_align_names">
+        <item>Wyrównanie do lewej</item>
+        <item>Wyśrodkowanie</item>
+        <item>Wyjustowanie</item>
+        <item>Wyrównanie do prawej</item>
+    </array>
+
+    <integer-array name="forum_toolbar_align_icons">
+        <item>@drawable/icon_forum_edit_left_48</item>
+        <item>@drawable/icon_forum_edit_center_48</item>
+        <item>@drawable/icon_forum_edit_justify_48</item>
+        <item>@drawable/icon_forum_edit_right_48</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/backgroundBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryLightTransparent</item>
+        <item name="colorAccent">@color/buttonActiveFocus</item>
+        <item name="colorControlNormal">@color/textLink</item>
+        <item name="colorControlActivated">@color/buttonActive</item>
+        <item name="colorControlHighlight">@color/buttonActiveFocus</item>
+        <item name="android:windowBackground">@color/backgroundBlue</item>
+        <item name="android:colorBackground">@color/backgroundBlue</item>
+        <item name="android:colorForeground">@color/textPrimary</item>
+        <item name="android:textColorPrimary">@color/textLink</item>
+        <item name="colorButtonNormal">@color/buttonPrimary</item>
+        <item name="android:textColorSecondary">@color/textPrimary</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">@bool/design_navigation_bar_transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">#c82f2f</item>
+        <item name="android:actionModeBackground">@color/buttonPrimary</item>
+        <item name="android:spinnerStyle">@style/SpinnerStyle</item>
+    </style>
+
+    <style name="AppTheme.NoDrawer" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="DialogThemeFullScreen" parent="DialogTheme">
+        <item name="android:windowBackground">@color/backgroundBlue</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+
+    <style name="AppTheme.Widget" />
+
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorLink">@color/textLink</item>
+        <item name="fontPath">fonts/Dosis-Light.ttf</item>
+    </style>
+
+    <style name="PrimaryText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="LightBlueText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/textHover</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="colorAccent">@color/buttonActiveFocus</item>
+        <item name="fontPath">fonts/Dosis-Light.ttf</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">@color/textPrimary</item>
+        <!-- Kolorystyka "buttonów", pozwala na efekt animowanego gładkiego przechodzenia kolorów -->
+        <item name="android:colorBackground">@color/buttonPrimary</item>
+        <item name="colorAccent">@color/buttonActiveFocus</item>
+        <item name="colorControlActivated">@color/buttonActive</item>
+        <item name="colorControlHighlight">@color/buttonActiveFocus</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:background">@color/buttonPrimary
+        </item><!--  @android:drawable/btn_default -> only way to change this is to change the src image -->
+    </style>
+
+    <style name="AppTheme.ProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/buttonActiveFocus</item>
+        <item name="android:background">@color/buttonPrimary</item>
+        <item name="android:colorBackground">@color/buttonPrimary</item>
+        <item name="android:textColor">@color/textHover</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorTertiary">@color/textPrimary</item>
+        <item name="fontPath">fonts/Dosis-Light.ttf</item>
+    </style>
+
+    <!--  IMPORTANT TODO to jest zapewne kolor focusowanego FABA !!!!! -->
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/textLink</item>
+        <item name="colorControlActivated">@color/buttonActive</item>
+        <item name="colorControlHighlight">@color/buttonActiveFocus</item>
+    </style>
+
+    <!-- Styl UserActivity -->
+    <style name="AppTheme.WhiteBarIcon" parent="@style/AppTheme">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">@color/textPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="preferenceTheme">@style/AppTheme.PreferenceTheme</item>
+    </style>
+
+    <style name="AppTheme.PreferenceTheme" parent="PreferenceThemeOverlay">
+        <item name="android:textColorPrimary">@color/textHover</item>
+        <item name="android:textColorSecondary">@color/textPrimary</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceScreen</item>
+    </style>
+
+    <style name="PreferenceScreen" parent="android:Theme.NoTitleBar">
+        <item name="android:background">@color/backgroundBlueTransparent</item>
+        <item name="android:layout_margin">@dimen/design_main_fragment_padding_right</item>
+        <item name="android:padding">@dimen/design_main_fragment_padding_right</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <!-- TODO -> wstawic porzadne logo HiRes w te linie kodu:
+     <item name="android:windowBackground">@drawable/background_1200</item> -->
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- samo Background sprawia, że zmienia się kolor i wymiar toolbara copy/paste na chujowy -->
+        <item name="android:colorBackground">@color/backgroundBlue</item>
+        <item name="android:textColor">@color/textHover</item>
+        <item name="android:textColorTertiary">@color/textPrimary</item>
+        <item name="android:textColorPrimary">@color/textLink</item>
+    </style>
+
+    <style name="DialogThemeTransparent" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@color/transparentHalfDark</item>
+        <item name="android:textColor">@color/textHover</item>
+        <item name="android:textColorTertiary">@color/textPrimary</item>
+        <item name="android:textColorPrimary">@color/textLink</item>
+    </style>
+
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+
+</resources>

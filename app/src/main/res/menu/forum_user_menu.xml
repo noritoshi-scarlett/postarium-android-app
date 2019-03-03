@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_menu_forum_user_link_copy"
+        android:title="@string/forum_online_menu_user_link_copy" />
+    <item
+        android:id="@+id/nav_menu_forum_user_pw_send"
+        android:title="@string/forum_online_menu_user_pw_send" />
+    <item
+        android:id="@+id/nav_menu_forum_user_simple_view"
+        android:title="@string/forum_online_menu_user_simple_view" />
+    <item
+        android:id="@+id/nav_menu_forum_user_open_browser"
+        android:title="@string/forum_online_menu_user_open_browser" />
+</menu>

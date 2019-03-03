@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tootchToClose">"Jeśli klikniesz raz jeszcze, wyjdziesz z aplikacji"</string>
+    <string name="main_dialog_close_button">Zamknij</string>
+</resources>

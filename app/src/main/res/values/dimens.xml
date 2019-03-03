@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="design_navigation_view_padding_bottom">40dp</dimen>
+    <dimen name="design_navigation_view_padding_bottom_max">50dp</dimen>
+    <bool name="design_navigation_bar_transparent">true</bool>
+
+    <dimen name="design_main_fragment_padding_top">75dp</dimen>
+    <dimen name="design_main_fragment_padding_left">10dp</dimen>
+    <dimen name="design_main_fragment_padding_right">10dp</dimen>
+    <dimen name="design_main_fragment_padding_bottom">0dp</dimen>
+
+    <dimen name="design_forum_margin_logo">10dp</dimen>
+    <dimen name="design_forum_margin_button_news">10dp</dimen>
+
+    <integer name="forum_posts_record_columns">1</integer>
+</resources>

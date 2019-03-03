@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingStart="6dp"
+    android:paddingEnd="50dp"
+    android:paddingBottom="2dp"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="2dp"
+            android:minWidth="30dp"
+            android:id="@+id/forumSBMsgDate"
+            android:gravity="center_horizontal|bottom"
+            android:textColor="@color/textHover"
+            android:textSize="9dp"
+            android:text=""
+            android:background="@color/transparent"
+            android:layout_marginStart="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/forumSBMsgAuthor"
+            android:textColor="@color/textPrimary"
+            android:paddingStart="3dp"
+            android:paddingBottom="2dp"
+            android:textSize="10dp"
+            android:text=""
+            android:background="@color/transparent"
+            android:layout_marginEnd="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|fill_vertical"
+        android:minHeight="30dp"
+        android:layout_below="@id/layoutInfo">
+
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/forumSBMsgTag"
+            android:gravity="center"
+            android:textColor="@color/textPrimary"
+            android:background="@color/buttonPrimary"/>
+
+        <RelativeLayout
+            android:id="@+id/forumSBMsgArrow"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="2dp"
+            android:gravity="start"
+            android:background="@drawable/textview_arrow_dark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:minHeight="30dp"
+            android:paddingTop="1dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="3dp"
+            android:autoLink="web|email"
+            android:textIsSelectable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/forumSBMsgDescText"
+            android:textColor="@color/textPrimary"
+            android:textSize="16dp"
+            android:text=""
+            android:background="@color/transparentSBLight" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/forumSBMsgMenu"
+        android:drawableEnd="@drawable/icon_menu_more_24"
+        android:visibility="gone"
+        android:background="@color/transparent" />
+
+</RelativeLayout>

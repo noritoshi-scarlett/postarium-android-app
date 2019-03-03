@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="design_navigation_view_padding_bottom">40dp</dimen>
+    <dimen name="design_navigation_view_padding_bottom_max">60dp</dimen>
+    <bool name="design_navigation_bar_transparent">true</bool>
+
+    <dimen name="design_main_fragment_padding_top">95dp</dimen>
+    <dimen name="design_main_fragment_padding_left">70dp</dimen>
+    <dimen name="design_main_fragment_padding_right">40dp</dimen>
+    <dimen name="design_main_fragment_padding_bottom">0dp</dimen>
+
+    <dimen name="design_forum_margin_logo">60dp</dimen>
+    <dimen name="design_forum_margin_button_news">60dp</dimen>
+
+    <integer name="forum_posts_record_columns">4</integer>
+</resources>

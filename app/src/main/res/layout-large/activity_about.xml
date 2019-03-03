@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal|center_vertical|center_horizontal"
+    android:background="@drawable/background_1200">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_what_title"
+                android:shadowColor="@color/backgroundBlueDark"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="10"
+                android:id="@+id/aboutWhatTitle"
+                android:padding="10dp"
+                android:textColor="@color/textHover"
+                android:layout_column="0"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_forums_title"
+                android:shadowColor="@color/backgroundBlueDark"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="10"
+                android:id="@+id/aboutForumsTitle"
+                android:padding="10dp"
+                android:textColor="@color/textHover"
+                android:layout_column="1"
+                android:layout_margin="5dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/about_what_desc"
+                android:id="@+id/aboutWhatDesc"
+                android:padding="10dp"
+                android:textColor="@color/textPrimary"
+                android:layout_margin="5dp"
+                android:background="@color/backgroundBlueTransparent"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:autoLink="email"
+                android:text="@string/about_forums_desc"
+                android:id="@+id/aboutForumsDesc"
+                android:padding="10dp"
+                android:textColor="@color/textPrimary"
+                android:layout_margin="5dp"
+                android:background="@color/backgroundBlueTransparent"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_basic_title"
+                android:shadowColor="@color/backgroundBlueDark"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="10"
+                android:id="@+id/aboutBasicTitle"
+                android:padding="10dp"
+                android:textColor="@color/textHover"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_postari_title"
+                android:shadowColor="@color/backgroundBlueDark"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="10"
+                android:id="@+id/aboutPostariTitle"
+                android:padding="10dp"
+                android:textColor="@color/textHover"
+                android:layout_margin="5dp" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/about_basic_desc"
+                android:id="@+id/aboutBasicDesc"
+                android:padding="10dp"
+                android:textColor="@color/textPrimary"
+                android:layout_margin="5dp"
+                android:background="@color/backgroundBlueTransparent"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/about_postari_desc"
+                android:id="@+id/aboutPostariDesc"
+                android:padding="10dp"
+                android:textColor="@color/textPrimary"
+                android:layout_margin="5dp"
+                android:background="@color/backgroundBlueTransparent"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/about_security_title"
+                android:shadowColor="@color/backgroundBlueDark"
+                android:shadowDy="3"
+                android:shadowDx="3"
+                android:shadowRadius="10"
+                android:id="@+id/aboutSecurityTitle"
+                android:padding="10dp"
+                android:textColor="@color/textHover"
+                android:layout_margin="5dp"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/about_security_desc"
+                android:id="@+id/aboutSecurityDesc"
+                android:padding="10dp"
+                android:textColor="@color/textPrimary"
+                android:layout_margin="5dp"
+                android:layout_span="2"
+                android:background="@color/backgroundBlueTransparent"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="library_title">Biblioteka Forów</string>
+    <string name="library_subtitle">Biblioteka forów i ich subskrybcja</string>
+    <string name="library_desc">Biblioteka forów zawiera wszystkie te fora, które są aktualnie przez platformę Postarium wspierane. Subskrypcja forum do niczego nie zobowiązuje i jedynie ma na celu ułatwienie korzystania z funkcji oferowanych przez Postarium. \n\n Subskrybowane fora będą wyświetlały się w pionowym szyku w głównym menu oraz możliwe będzie przypisanie do nich danych logowania postaci w menu <b>Krąg Postaci</b>. W każdej chwili będziesz mógł zrezygnować ze subskrypcji wybranego forum, tym samym usuwając przypisane do niego dane logowania z platformy. \n\n Jeśli chcesz, aby Twoje forum znalazło się na liście wspieranych przez platformę Postarium, skontaktuj się z administracją pod adresem email: <b>administracja@postarium.pl</b>. </string>
+
+    <string name="library_desc_short">Biblioteka forów zawiera wszystkie te fora, które są aktualnie przez platformę Postarium wspierane. Subskrypcja forum do niczego nie zobowiązuje i jedynie ma na celu ułatwienie korzystania z funkcji oferowanych przez Postarium </string>
+
+    <string name="library_more_info">Co to jest?</string>
+    <string name="library_full_info">Czytaj dalej…</string>
+    <string name="library_ok">Ok, zamknij</string>
+
+    <string name="library_forum_sub_success">Dodano subskrypcję dla </string>
+    <string name="library_forum_unsub_success">Usunięto subskrypcję dla </string>
+    <string name="library_forum_unsub_success_desc">Dane postaci zostały automatycznie wykasowane.</string>
+    <string name="library_forum_not_picked">Nie wybrałeś forum! ;c</string>
+
+
+    <string name="library_list_forum">Forum</string>
+    <string name="library_list_address">Adres</string>
+    <string name="library_list_desc">Opis</string>
+    <string name="library_list_add">Dodaj</string>
+    <string name="library_list_delete">Usuń</string>
+
+    <string name="library_empty_menu">Pusto tu ;C Chodźmy do <b>Forumoteki</b>!</string>
+    <string name="library_empty_library">Ta półka jest pusta</string>
+    <string name="library_empty_need_refresh">Ojej, nie mam danych!\n</string>
+    <string name="library_empty_need_refresh_desc">Odwiedź Forumotekę, aby załadować listę forów.</string>
+
+</resources>

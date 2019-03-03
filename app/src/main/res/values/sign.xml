@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="firstmsg_title">Witaj w Postarium!</string>
+    <string name="firstmsg_desc">&#160;Jeśli tutaj trafiłeś, najprawdopodobniej grywasz na paru forach PBF RPG.\n&#160;Od dziś możesz przestać się martwić i&#160;zacząć tworzyć nieskończoną ilość postaci, bo proponujemy Ci miejsce, z&#160;którego będziesz mógł łączyć się ze wszystkimi światami wypełniającymi zakamarki Twojej wyobraźni!\n&#160;Przestań czekać na odpisy, zacznij je kontrolować!\n\n&#160;Serdecznie dziękujemy za zainstalowanie tej aplikacji c;</string>
+
+    <string name="firstmsg_ok">Super, przejdźmy dalej ;3</string>
+
+    <string name="check_internet_connection">Ojej, chyba nie masz połączenia z Internetem!</string>
+
+    <string name="offline_title">Tryb pracy offline</string>
+    <string name="offline_desc">Aplikacja Postarium nie może nawiązać połączenia z Internetem, lecz możliwa jest praca w trybie offline z ograniczonymi możliwościami.</string>
+
+    <string name="offline_ok">Korzystaj mimo to</string>
+    <string name="offline_cancel">Zamknij aplikację</string>
+
+    <string name="give_email">E-mail</string>
+    <string name="give_password">Hasło</string>
+
+    <string name="sign_in">Zaloguj się</string>
+    <string name="sign_up">Rejestracja</string>
+    <string name="sign_out">Wyloguj</string>
+    <string name="sign_about">O Postarium</string>
+
+    <string name="sign_email_null">Musisz podać swoj e-mail.</string>
+    <string name="sign_pssword_null">Musisz wpisać swoje hasło.</string>
+    <string name="sign_email_error">Podany adres email nie jest poprawny.</string>
+    <string name="sign_pssword_error">Hasło jest zbyt długie. Dopuszczalne jest 20 znaków.</string>
+
+    <string name="sign_try_login">Logowanie do systemu Postarium…</string>
+    <string name="sign_up_auth_failed">Wystąpił problem podczas tworzenia konta T__T</string>
+    <string name="sign_in_auth_failed">Wystąpił problem podczas logowania T__T</string>
+    <string name="sign_cant_login">Nie mogę połączyć się z Postarium T__T</string>
+    <string name="sign_about_desc">  Postarium to bardzo prosta w obsłudze platforma do zarządzania forami internetowymi typu Play-by-forum. Wystarczy zarejestrować się, wybrać z biblioteki forów te, na których prowadzi się rozgrywkę i dodać konta swoich postaci. Gotowe! Od teraz możesz być na bieżąco z nowymi postami i wiadomościami gdziekolwiek jesteś i kiedykolwiek chcesz! Z jednego miejsca edytuj informacje o swoich postaciach, nawiązuj znajomości i komunikuj się z innymi graczami, wstawiaj notatki. Przebierz swoje forum, bądź na bieżąco!</string>
+
+    <string name="sign_out_title">Czy chcesz się wylogować z Postarium?</string>
+    <string name="sign_out_ok">Wyloguj</string>
+    <string name="sign_out_cancel">Tylko zamknij aplikacje</string>
+</resources>

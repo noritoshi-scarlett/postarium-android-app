@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_using_cat">Personalizacja</string>
+    <string name="settings_using_info_title">Ikonki podpowiedzi</string>
+    <string name="settings_using_info_desc">Jeśli wiesz juz jak działa aplikacja, nie będą ci potrzebne</string>
+    <string name="settings_using__title">Przyciski podpowiedzi</string>
+    <string name="settings_using__desc">Jeśli wiesz juz jak działa aplikacja, nie będą ci potrzebne</string>
+
+    <string name="settings_notifications_cat">Powiadomienia</string>
+    <string name="settings_notifications_title">Odbieraj wszystkie</string>
+    <string name="settings_notification_ringtone">Używany dźwięk</string>
+    <string name="settings_notification_silence">Brak</string>
+    <string name="settings_notification_vibrations_enabled">Wibracje</string>
+    <string name="settings_notification_mute_enabled">Tryb cichy</string>
+    <string name="settings_notification_led_enabled">Dioda LED</string>
+
+    <string name="settings_version_app_cat">Wersja Postarium</string>
+    <string name="settings_version_app_current_title">Wersja apki</string>
+    <string name="settings_version_app_newest_title">Aktualizuj!</string>
+    <string name="settings_version_app_newest_desc">Dostępna jest nowsza wersja: </string>
+
+    <string name="settings_contact_cat">Kontakt z twórcami</string>
+    <string name="settings_contact_url_title">Strona główna Postarium</string>
+    <string name="settings_contact_mail_title">Wyślij e-mail</string>
+    <string name="settings_contact_mail_desc">administracja@postarium.pl</string>
+    <string name="settings_contact_mail_function">mailto:administracja@postarium.pl</string>
+    <string name="settings_contact_mail_subject">[APP] Zapytanie o …</string>
+    <string name="settings_contact_mail_text">Hejka!\n\nPiszę do Ciebie w sprawie …</string>
+</resources>

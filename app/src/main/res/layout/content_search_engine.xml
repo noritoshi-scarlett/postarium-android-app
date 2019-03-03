@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutSearchEngine"
+    android:paddingTop="0dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/textLink"
+        android:textSize="16sp"
+        android:text="@string/search_pick_type"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSearchType"
+        android:background="@color/colorPrimaryLightTransparent"
+        android:popupBackground="@color/buttonPrimary"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:id="@+id/searchTextDesc"
+        android:textColor="@color/textPrimary"
+        android:textSize="11sp"
+        android:text="@string/search_pick_type_desc"/>
+
+</LinearLayout>

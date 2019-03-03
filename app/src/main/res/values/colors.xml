@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#BB303f9f</color>
+    <color name="colorPrimaryLightTransparent">#995380a7</color>
+    <color name="colorAccent">#ff4081</color>
+    // jasny czerwony (akcent)
+    <color name="backgroundBlueTransparent">#A0143f63</color>
+    <color name="backgroundBlue">#143f63</color>
+        // ciemny niebieski (tło)
+    <color name="backgroundBlueDark">#102a3a</color>
+    <color name="backgroundRed">#c82f2f</color>
+    // ciemny czerwony
+    <color name="textPrimary">#efefef</color>
+    //kolor tekstu głównego (biel z błękitem)
+    <color name="textLink">#8ab6c6</color>
+    //kolor linku
+    <color name="textHover">#d1e2e9</color>
+    //kolor linku po najechaniu/kliknieciu
+
+    <color name="fabBackgroundTint">#ddcb2727</color>
+    <color name="fabBackgroundFocus">#ffcb2727</color>
+    <color name="fabBackgroundDisabled">#55cb2727</color>
+
+    <color name="fabBackgroundGreenTint">#bb3C983C</color>
+    <color name="fabBackgroundGreenFocus">#ff3C983C</color>
+    <color name="fabBackgroundGreenDisabled">#553C983C</color>
+
+    <color name="fabBackgroundBlueTint">#dd5380a7</color>
+    <color name="fabBackgroundBlueFocus">#ff5380a7</color>
+    <color name="fabBackgroundBlueDisabled">#555380a7</color>
+
+    <color name="buttonActiveFocus">#cb2727</color>
+    <color name="buttonPrimaryFocus">#5380a7</color>
+
+    <color name="buttonPrimary">#336087</color>
+    <color name="buttonActive">#ab2222</color>
+    <color name="buttonPrimaryDisabled">#134067</color>
+    <color name="buttonPrimaryTransparent">#bb336087</color>
+
+    <color name="buttonActiveTransparent">#bbab2222</color>
+    <color name="buttonPrimaryDisabledTransparent">#bb134067</color>
+
+    <color name="buttonSuccess">#5CB85C</color>
+    <color name="buttonSuccessFocus">#7CD87C</color>
+    <color name="buttonSuccessDisabled">#3C983C</color>
+
+    <color name="transparentSBLight">#2c5478</color>
+    <color name="transparentSBTransparentDark">#55101015</color>
+    <color name="transparentSBShadow">#cc000000</color>
+
+    <color name="buttonSuccessTransparent">#bb5CB85C</color>
+    <color name="buttonSuccessFocusTransparent">#bb7CD87C</color>
+    <color name="buttonSuccessDisabledTransparent">#bb3C983C</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparentPrimaryLight">#66336087</color>
+    <color name="transparentPrimaryDark">#66437eb2</color>
+    <color name="transparentHalfLight">#33FFFFFF</color>
+    <color name="transparentHalfDark">#19000010</color>
+    <color name="transparentMoreDark">#55000010</color>
+    <color name="transparentDark">#66000010</color>
+    <color name="transparentMegaDark">#CC000010</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="tranpsarentNaviLight">#66FFFFFF</color>
+</resources>

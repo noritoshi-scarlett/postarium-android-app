@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="online_logged_title">Zalogowani użytkownicy:</string>
+    <string name="online_active_title">Aktywni w ostatnich 48 godzinach:</string>
+    <string name="online_logged_not">Brak zalogowanych użytkowników.</string>
+    <string name="online_active_not">Nikt nie był aktywny w ciągu ostatnich 48 godzin.</string>
+
+    <string name="request_fail">"Wystapił bląd podczas łączenia z Internetem.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp"
+    android:paddingStart="0dp"
+    android:paddingEnd="6dp"
+    android:paddingBottom="0dp"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/layoutMain">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="end|center_vertical"
+            android:minHeight="30dp"
+            android:paddingTop="1dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="3dp"
+            android:autoLink="web|email"
+            android:textIsSelectable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/forumSBMsgDescText"
+            android:textColor="@color/backgroundBlue"
+            android:textSize="16dp"
+            android:text=""
+            android:background="@color/textPrimary" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="0dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/forumSBMsgMenu"
+        android:drawableEnd="@drawable/icon_menu_more_24"
+        android:visibility="gone"
+        android:background="@color/transparent" />
+
+</RelativeLayout>

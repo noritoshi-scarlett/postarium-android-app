@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_need_more_chars">Wpisz przynajmniej dwie litery</string>
+    <string name="search_need_any_chars">Wpisz jakieś słowo do wyszukania</string>
+    <string name="search_result">Wyniki wyszukiwania</string>
+    <string name="search_in_progress">Sztuka Szukiwania Szuka Człowenia…</string>
+    <string name="search_not_result">Ożeszty, bazo danych niesforno!\nBrak wyników mi zwracasz ;C</string>
+
+    <string name="search_pick_type">Wybierz spsób wyszukiwania:</string>
+    <string name="search_type_chars">Wyszukaj w Kręgach Postaci</string>
+    <string name="search_type_users">Poszukaj wśród Graczy</string>
+    <string name="search_type_forum">Popacz na graczy z forum:</string>
+    <string name="search_pick_type_desc">Na liście znajdują się <i>tylko</i> te fora, które aktualnie subskrybujesz</string>
+
+    <string name="search_char_owner_title">Postacią opiekuje się:</string>
+    <string name="search_owner_title">Nick gracza:</string>
+</resources>
