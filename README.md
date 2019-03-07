@@ -12,7 +12,7 @@ Aplikacja łączy się ze stroną serwerową *Platformy Postarium* dostepnej pod
 
 
 ## Screeny z alikacji:
-<img width="300" alt="Strona Główna" src="https://i.imgur.com/FhwvYRp.png"> <img width="300" alt="Wyszukiwarka" src="https://i.imgur.com/NDno5GR.png"> <img width="300" alt="Menu Główne" src="https://i.imgur.com/ihTEcJ4.png"> <img width="300" alt="Subskrybowane fora" src="https://i.imgur.com/o4twKi2.png"> <img width="300" alt="Ustawienia postaci" src="https://i.imgur.com/X9zGHN6.png">
+<img width="250" alt="Strona Główna" src="https://i.imgur.com/FhwvYRp.png"> <img width="250" alt="Wyszukiwarka" src="https://i.imgur.com/NDno5GR.png"> <img width="250" alt="Menu Główne" src="https://i.imgur.com/ihTEcJ4.png"> <img width="250" alt="Subskrybowane fora" src="https://i.imgur.com/o4twKi2.png"> <img width="250" alt="Ustawienia postaci" src="https://i.imgur.com/X9zGHN6.png">
 
 
 
