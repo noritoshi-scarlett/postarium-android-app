@@ -12,7 +12,28 @@ Aplikacja łączy się ze stroną serwerową *Platformy Postarium* dostepnej pod
 
 
 ## Screeny z alikacji:
-<img width="250" alt="Strona Główna" src="https://i.imgur.com/FhwvYRp.png"> <img width="250" alt="Wyszukiwarka" src="https://i.imgur.com/NDno5GR.png"> <img width="250" alt="Menu Główne" src="https://i.imgur.com/ihTEcJ4.png"> <img width="250" alt="Subskrybowane fora" src="https://i.imgur.com/o4twKi2.png"> <img width="250" alt="Ustawienia postaci" src="https://i.imgur.com/X9zGHN6.png">
+### Strona główa | Wyszukiwarka | Menu Główne
+Podstawowe ekrany poruszania się po aplikacji.
+
+<img width="250" alt="Strona Główna" src="https://i.imgur.com/FhwvYRp.png"> <img width="250" alt="Wyszukiwarka" src="https://i.imgur.com/NDno5GR.png"> <img width="250" alt="Menu Główne" src="https://i.imgur.com/ihTEcJ4.png">
+
+
+### Subskrybowane fora | Ustawienia postaci
+Zarządzanie forami i postaciami.
+
+<img width="250" alt="Subskrybowane fora" src="https://i.imgur.com/o4twKi2.png"> <img width="250" alt="Ustawienia postaci" src="https://i.imgur.com/X9zGHN6.png">
+
+
+### Lista aktywnych online | ShoutBox z forum | Struktura forum
+Przegląd danych z wybranego forum (w tym przypadku forum Caledonia). Lista aktualnie zalogowanych, czat forumowy, przeglądanie struktury forum.
+
+<img width="250" alt="Lista aktywnych online" src="https://i.imgur.com/swGAUaz.png"> <img width="250" alt="ShoutBox z forum" src="https://i.imgur.com/9euMeDq.png"> <img width="250" alt="Struktura forum" src="https://i.imgur.com/zxaqXB6.png">
+
+
+### Lista nowych postów (i nieczytanych zbiorowych, PW i szybkie linki) | Podgląd wątku
+Przglądanie list z postami oraz wątków z forum.
+
+<img width="250" alt="Lista nowych postów" src="https://i.imgur.com/1JEXxpP.png"> <img width="250" alt="Podgląd wątku" src="https://i.imgur.com/nIHJeWQ.png">
 
 
 
